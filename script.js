@@ -61,32 +61,48 @@ var UpperCase = [ "A",
 // Write password to the #password input
 function writePassword() {
     var password = generatePassword();
-    var passwordText = document.querySelector("#password");
+  var passwordText = document.querySelector("#password");
 
-    passwordText.value = password;
+   passwordText.value = password;
+return 'may';
+
 }
+
 
   
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
-
-  function generatePassword() {
-      var password = '';
+ function generatePassword() {
+      var password = 'name';
   var length = parseInt(prompt ('How many charcters would you like? (8-128)') )
   console.log (length)
   var symbol = confirm("Do you want specialCharacters?")
   console.log(symbol)
   var lowerCaseConfirm= confirm("Do you want lowerCaseCharacters?")
   console.log (lowerCaseConfirm)
-  var UpperCase = confirm("Do you want upperCaseCharacters")
+ var UpperCase = confirm("Do you want upperCaseCharacters")
   console.log (UpperCase)
+
+ 
 
 
     
 
-    return password;
-  }
+   return password;
+  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
